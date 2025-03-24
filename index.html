@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dynamic Screen Size Display</title>
+<style>
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+#screen-info {
+  border: 2px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+</style>
+</head>
+<body>
+
+<div id="screen-info">
+  <h1>Screen Size</h1>
+  <p>Width: <span id="width"></span> pixels</p>
+  <p>Height: <span id="height"></span> pixels</p>
+  <p>Device Pixel Ratio: <span id="dpr"></span></p>
+</div>
+
+<script>
+function updateScreenSize() {
+  document.getElementById("width").textContent = window.innerWidth;
+  document.getElementById("height").textContent = window.innerHeight;
+  document.getElementById("dpr").textContent = window.devicePixelRatio;
+}
+
+updateScreenSize(); // Initial update
+
+window.addEventListener("resize", updateScreenSize); // Update on resize
+</script>
+
+</body>
+</html>
