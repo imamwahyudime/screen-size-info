@@ -8,7 +8,7 @@ This repository contains a simple HTML page that dynamically displays the screen
 - **Clear Display:** The width, height, and DPR are clearly displayed in a user-friendly format.
 - **Simple Implementation:** The code uses basic HTML, CSS, and JavaScript, making it easy to understand and modify.
 
-**Usage:**
+# Usage:
 
 1.  Clone or download this repository.
 2.  Open `index.html` in your web browser.
