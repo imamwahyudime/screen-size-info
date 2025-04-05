@@ -2,13 +2,13 @@
 
 This repository contains a simple HTML page that dynamically displays the screen's width, height, and device pixel ratio (DPR). It updates the displayed information in real-time as the browser window is resized.
 
-# Key Features:
+## Key Features:
 
 - **Real-time Updates:** The screen size information is updated dynamically whenever the browser window is resized.
 - **Clear Display:** The width, height, and DPR are clearly displayed in a user-friendly format.
 - **Simple Implementation:** The code uses basic HTML, CSS, and JavaScript, making it easy to understand and modify.
 
-# Usage:
+## Usage:
 
 - **Option 1:**
 1. Go to https://imamwahyudime.github.io/screen-size-info/
